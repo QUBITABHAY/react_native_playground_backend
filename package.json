@@ -1,0 +1,34 @@
+{
+  "name": "react_native_playground_backend",
+  "version": "1.0.0",
+  "description": "React Native Playground Backend",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node server.ts",
+    "dev": "nodemon server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QUBITABHAY/react_native_playground_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/QUBITABHAY/react_native_playground_backend/issues"
+  },
+  "homepage": "https://github.com/QUBITABHAY/react_native_playground_backend#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.11"
+  }
+}
