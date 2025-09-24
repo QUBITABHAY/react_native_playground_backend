@@ -66,13 +66,13 @@ git checkout -b feature-name
 git commit -m "Added feature"
 ```
 
-1. Push to your fork:
+2. Push to your fork:
 
 ```bash
 git push origin feature-name
 ```
 
-1. Open a Pull Request
+3. Open a Pull Request
 
 ---
 
