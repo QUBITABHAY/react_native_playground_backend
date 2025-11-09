@@ -20,15 +20,20 @@
   },
   "homepage": "https://github.com/QUBITABHAY/react_native_playground_backend#readme",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.3",
     "@types/node": "^24.5.2",
+    "@types/ws": "^8.5.13",
     "nodemon": "^3.1.10",
     "prisma": "^6.16.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "cors": "^2.8.5",
     "express": "^5.1.0",
+    "ws": "^8.18.0",
     "zod": "^4.1.11"
   }
 }
